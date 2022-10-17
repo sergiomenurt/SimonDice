@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="217dp"
+        android:layout_height="239dp"
+        android:text="Rojo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="183dp"
+        android:layout_height="229dp"
+        android:text="Azul"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="224dp"
+        android:layout_height="328dp"
+        android:text="Amarillo"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="390dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="162dp"
+        android:layout_height="310dp"
+        android:text="Verde"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="402dp"
+        android:layout_height="54dp"
+        android:text="Bienvenido al juego de Simon Dice"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="414dp"
+        android:layout_height="41dp"
+        android:text="Iniciar Juego"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
